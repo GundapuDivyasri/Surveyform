@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div id="title">
+    <h1>FreeCodeCamp Survey Form</h1>
+    <h2><em>Please fill out this form with the required information</em></h2></div>
+    <div id="container">
+      <form id="survey-form" method="POST" action="#">
+    <div id="personal-info">
+      <label id="name"><p>Name</p>
+        <input type="text" name="name" id="name" placeholder="Enter your name" required></input></label>
+      <label id="email"><p>Email</p><input type="email" name="email" id="email" placeholder="Enter your email id" required></input></label>
+      <label id="age"><p>Age</p><input type="text" name="age" id="age" placeholder="Enter your age" required></input></label>
+    </div>
+      <br>
+      <div id="role">
+        <label id="options">Which role describes you best?</label>
+        <br>
+        <select name="category">
+         <option value="student">Student</option>
+          <option value="professional">Professional</option>
+          <option value="other">Other</option>
+          </select>
+        </div>
+          <br>
+            <div id="radio">
+              <p>Is Freecodecamp useful to you?</p>
+              <label>
+      <input type="radio" value="yes" name="info">Yes</input>
+    </label>
+    <label>
+      <input type="radio" value="no" name="info">No</input>
+    </label>
+  </div>
+    <br>
+    <div id="radio">
+      <p>Where did you hear about Freecodecamp?</p>
+      <label><input type="radio" name="data" value="friend">
+      Friends</input>
+      </label><br>
+      <label><input type="radio" name="data" value="utube">
+      Youtube</input>
+      </label><br>
+      <label><input type="radio" name="data" value="online">
+      Online</input>
+      </label><br>
+      <label><input type="radio" name="data" value="other">
+      Other</input>
+      </label>
+    </div>
+      <br>
+      <div id="checkbox">
+        <p>What did you like about Freecodecamp?<p>
+        <label>
+          <input type="checkbox" value="course" name="courses">Courses</input>
+          </label>
+          <br>
+          <label>
+          <input type="checkbox" value="certification" name="certification">Certification</input>
+          </label>
+          <br>
+          <label>
+          <input type="checkbox" value="training" name="training">Training sessions</input>
+          
+          </label><br>
+          <label>
+          <input type="checkbox" value="free" name="free">Freesource</input>
+          </label>
+        </div>
+          <div class="comment">
+            <p>Any suggestions</p>
+            <br>
+            <textarea id="comment" placeholder="Write your suggestions here"></textarea>
+          </div>
+            <br>
+            <button id="submit" value="submit">Submit</button>
+            
+            </form>
+    </div>
+    
+            </body>
+            </html>
+          

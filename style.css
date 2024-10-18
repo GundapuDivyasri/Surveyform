@@ -1,0 +1,61 @@
+*{
+  padding:0;
+  font-size: 1.1rem;
+  font-weight: 200;
+  color:white;
+  box-sizing: border-box;
+  font-family: Tahoma;
+}
+body{
+  background:linear-gradient(to right,#182848,#4b6cb7);
+  font-size:15px;
+}
+
+#title,#container{
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+#radio,#checkbox{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column; 
+  
+}
+[type=text],[type=email],[type=age],select,textarea,button{
+  width:100%;
+  height:2.34rem;
+  font-size: 18px;
+  border-radius: 3px;
+  border:none;
+  padding:1.34rem;
+  color: black;
+}
+::placeholder{
+  color:black;
+}
+option{
+  color:black;
+}
+textarea{
+  width:100%;
+  height: auto;
+  color:black;
+}
+button{
+  padding: 0;
+  background-color: #51cf66;
+  color:white;
+  
+}
+h1{
+  font-size: 40px;
+}
+p{
+  color: white;
+}
+
